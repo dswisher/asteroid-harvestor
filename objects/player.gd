@@ -27,7 +27,7 @@ func _get_input():
     linear_acceleration = Vector2.ZERO
     if Input.is_action_pressed("thrust"):
         linear_acceleration = Vector2(linear_thrust, 0).rotated(rotation)
-    
+
 
 
 func _physics_process(delta: float) -> void:
@@ -39,10 +39,9 @@ func _physics_process(delta: float) -> void:
     var net_angular_acceleration = angular_acceleration - angular_velocity * angular_drag
     angular_velocity += net_angular_acceleration * delta
     rotation += angular_velocity * delta
-    
+
     move_and_slide()
 
     # Apply world boundary
     position.x = wrapf(position.x, 0, screen_size.x)
     position.y = wrapf(position.y, 0, screen_size.y)
-    

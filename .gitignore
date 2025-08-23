@@ -3,6 +3,8 @@
 .godot/
 /android/
 
+exports
+
 # OS-specific stuffs
 .DS_Store
 

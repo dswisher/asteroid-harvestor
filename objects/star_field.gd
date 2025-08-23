@@ -23,7 +23,7 @@ func _ready() -> void:
         var x_offset = (randi() % 10) / 10.0
         var scale_size = 0.2 + (randi() % 5) / 10.0
         var modulation = (randi() % 8) / 10.0
-        
+
         var spr = Sprite2D.new()
         spr.texture = textures[randi() % total_textures]
         spr.position = Vector2(screen_size.x * x_offset, randi() % max_height)
@@ -37,6 +37,6 @@ func _process(delta: float) -> void:
     for item in items:
         var speed_x = randi() % 10
         item.position += Vector2(-speed_x, 0) * delta
-        
+
         item.position.x = wrapf(item.position.x, 0, screen_size.x)
         item.position.y = wrapf(item.position.y, 0, screen_size.y)

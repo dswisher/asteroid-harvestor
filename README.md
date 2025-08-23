@@ -3,6 +3,32 @@
 This is my reinterpretation of the class Asteroids game, written in Godot.
 
 
+# Bugs
+
+* The background CanvasRect needs to handle other screen sizes, and needs to resize (try web export)
+* Need to handle screen resize
+
+
+# Web Export
+
+To export to web:
+
+* Select "Project -> Export...", select the "Web" preset on the left, then click "Export Project..."
+* Create the `exports` directory, if it does not exist
+* Make sure the file name is `index.html` and click "Save"
+
+To test locally, open a terminal window, go to the `exports` directory, and run:
+
+    python -m http.server
+
+Browse to [http://localhost:8000/](http://localhost:8000/)
+
+
+# Tools
+
+* [godot-gdscript-toolkit](https://github.com/Scony/godot-gdscript-toolkit) - for `gdlint` and `gdformat`
+
+
 # Reference Links
 
 * Asteroids game by [Carlos Sánchez Cazorla](https://github.com/cscazorla) on [github](https://github.com/cscazorla/godot-asteroids/tree/master)
