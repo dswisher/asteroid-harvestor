@@ -18,4 +18,5 @@ This is my reinterpretation of the class Asteroids game, written in Godot.
 
 * Asteroid sprites, by Phaelax, downloaded from [here](https://forum.thegamecreators.com/thread/209786).
 * Ship sprites, by Foozle, downloaded from [here](https://foozlecc.itch.io/void-main-ship)
+* Other sprites, by Kenney, downloaded from [here](https://kenney.nl/assets/space-shooter-redux)
 

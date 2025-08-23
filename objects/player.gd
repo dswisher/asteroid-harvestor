@@ -5,8 +5,6 @@ extends CharacterBody2D
 @export var angular_thrust: int = 8
 @export var angular_drag: float = 2.0
 
-@export var turn_speed : float = 3
-
 
 var angular_acceleration: float = 0
 var angular_velocity: float = 0
