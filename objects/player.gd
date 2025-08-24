@@ -5,6 +5,8 @@ extends CharacterBody2D
 @export var angular_thrust: int = 8
 @export var angular_drag: float = 2.0
 
+@export var bullet_scene : PackedScene
+
 
 var angular_acceleration: float = 0
 var angular_velocity: float = 0
@@ -15,6 +17,11 @@ var screen_size: Vector2
 
 func _ready() -> void:
     screen_size = get_viewport_rect().size
+
+
+func _input(event: InputEvent) -> void:
+    if event.is_action_pressed("fire"):
+        shoot()
 
 
 func _get_input():
@@ -45,3 +52,10 @@ func _physics_process(delta: float) -> void:
     # Apply world boundary
     position.x = wrapf(position.x, 0, screen_size.x)
     position.y = wrapf(position.y, 0, screen_size.y)
+
+
+func shoot():
+    var b = bullet_scene.instantiate()
+    get_tree().root.add_child(b)
+    b.init(rotation, position + Vector2.RIGHT.rotated(rotation) * 20)
+    

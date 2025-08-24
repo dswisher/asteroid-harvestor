@@ -32,6 +32,7 @@ Browse to [http://localhost:8000/](http://localhost:8000/)
 # Reference Links
 
 * Asteroids game by [Carlos Sánchez Cazorla](https://github.com/cscazorla) on [github](https://github.com/cscazorla/godot-asteroids/tree/master)
+* Kids Can Code: [Shooting](https://kidscancode.org/godot_recipes/4.x/games/first_2d/first_2d_05/)
 * Asteroids tutorial by Yiannis Charalambous - [github](https://github.com/Yiannis128/godot-asteroids/tree/part-5):
     * [Part 1](https://yiannis-charalambous.com/articles/godot-asteroids/godot-asteroids-01.html) - project setup
     * [Part 2](https://yiannis-charalambous.com/articles/godot-asteroids/godot-asteroids-02.html) - ship rotation
