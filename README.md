@@ -32,6 +32,13 @@ Browse to [http://localhost:8000/](http://localhost:8000/)
 # Reference Links
 
 * GDQuest Harvestor game on [github](https://github.com/gdquest-demos/godot-2d-space-game)
+* Asteroids tutorial by [Kaan Alpar](https://www.youtube.com/@KaanAlpar)
+    * [Episode 1](https://www.youtube.com/watch?v=zDpZ52Ulywg) - player controller
+    * [Episode 2](https://www.youtube.com/watch?v=2aRqSA01QBg) - shooting lasers
+    * [Episode 3](https://www.youtube.com/watch?v=ELrMMv7D1wM) - creating the asteroids
+    * [Episode 4](https://www.youtube.com/watch?v=J3KZ_6aypKs) - scoring and lives
+    * [Episode 5](https://www.youtube.com/watch?v=ZFed23kZMMk) - player spawn area and sound effects
+    * [Episode 6](https://www.youtube.com/watch?v=GNU5V1JVxHM) - parallax star field using Godot's particle system
 * Asteroids game: [cscazorla/godot-asteroids](https://github.com/cscazorla/godot-asteroids/tree/master)
 * Kids Can Code: [Shooting](https://kidscancode.org/godot_recipes/4.x/games/first_2d/first_2d_05/), [Character vs Rigid](https://kidscancode.org/godot_recipes/4.x/physics/character_vs_rigid/)
 * Asteroids tutorial by Yiannis Charalambous - [github](https://github.com/Yiannis128/godot-asteroids/tree/part-5):
