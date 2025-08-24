@@ -5,8 +5,8 @@ This is my reinterpretation of the class Asteroids game, written in Godot.
 
 # Bugs
 
-* The background CanvasRect needs to handle other screen sizes, and needs to resize (try web export)
-* Need to handle screen resize
+* The ship can fly faster than the bullets - need to cap velocity at less than the bullet speed
+* Need to handle screen resize - either scale viewport (?) or catch event and update things
 
 
 # Web Export
@@ -31,14 +31,21 @@ Browse to [http://localhost:8000/](http://localhost:8000/)
 
 # Reference Links
 
-* Asteroids game by [Carlos Sánchez Cazorla](https://github.com/cscazorla) on [github](https://github.com/cscazorla/godot-asteroids/tree/master)
-* Kids Can Code: [Shooting](https://kidscancode.org/godot_recipes/4.x/games/first_2d/first_2d_05/)
+* GDQuest Harvestor game on [github](https://github.com/gdquest-demos/godot-2d-space-game)
+* Asteroids game: [cscazorla/godot-asteroids](https://github.com/cscazorla/godot-asteroids/tree/master)
+* Kids Can Code: [Shooting](https://kidscancode.org/godot_recipes/4.x/games/first_2d/first_2d_05/), [Character vs Rigid](https://kidscancode.org/godot_recipes/4.x/physics/character_vs_rigid/)
 * Asteroids tutorial by Yiannis Charalambous - [github](https://github.com/Yiannis128/godot-asteroids/tree/part-5):
     * [Part 1](https://yiannis-charalambous.com/articles/godot-asteroids/godot-asteroids-01.html) - project setup
     * [Part 2](https://yiannis-charalambous.com/articles/godot-asteroids/godot-asteroids-02.html) - ship rotation
     * [Part 3](https://yiannis-charalambous.com/articles/godot-asteroids/godot-asteroids-03.html) - bullets
     * [Part 4](https://yiannis-charalambous.com/articles/godot-asteroids/godot-asteroids-04.html) - move and spawn asteroids
     * [Part 5](https://yiannis-charalambous.com/articles/godot-asteroids/godot-asteroids-05.html) - score counter
+* Space rocks: [self hosted](https://beta.grymmjack.com/godot-spacerocks/) - [github](https://github.com/grymmjack/godot-spacerocks)
+* Space junk: [itch.io](https://chazzzz.itch.io/space-junk) - [github](https://github.com/charliedavenport/SpaceJunk) - code from 2021
+* Asteroids game: [llanillo/game-asteroids](https://github.com/llanillo/game-asteroids) - code from 2022, C#
+* Asteroids game: [KAKwit/Asteroids](https://github.com/KAKwit/Asteroids) - gameplay video looks nice, code is quite old (2017)
+* Asteroids game: [JTokos/Asteroids-Remake](https://github.com/JTokos/Asteroids-Remake) - remake of the classic
+* Mission Apophis 2036: [itch.io](https://tstamborski.itch.io/mission-apophis-2036) - [github](https://github.com/tstamborski/mission-apophis-2036) - code from 2023
 
 
 # Credits
